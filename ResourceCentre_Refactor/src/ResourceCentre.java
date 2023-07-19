@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-yes HAHAAHAHA
 public class ResourceCentre {
 
 
