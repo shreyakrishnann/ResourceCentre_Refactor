@@ -1,4 +1,3 @@
-
 public class Item {
 	private String assetTag;
 	private String description;
@@ -15,7 +14,6 @@ public class Item {
 		
 		// Write your codes here
 		String itemInfo = String.format("%-10s %-30s %-10s %-10s",
-<<<<<<< HEAD
 				assetTag,
 				description,
 				showAvailibility(isAvailable),
@@ -32,14 +30,6 @@ public class Item {
 			avail = "No";
 		}
 		return avail;
-=======
-						assetTag,
-						description,
-						showAvailibility(isAvailable),
-						dueDate);
-	
-		return itemInfo;
->>>>>>> branch 'master' of https://github.com/shreyakrishnann/ResourceCentre_Refactor.git
 	}
 	public String getAssetTag() {
 		return assetTag;
